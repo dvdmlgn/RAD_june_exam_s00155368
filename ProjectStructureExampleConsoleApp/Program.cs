@@ -9,6 +9,9 @@ using WebAPIAuthenticationClient;
 
 namespace ProjectStructureExampleConsoleApp
 {
+
+    //test change for initial commit
+
     class Program
     {
         static void Main(string[] args)
