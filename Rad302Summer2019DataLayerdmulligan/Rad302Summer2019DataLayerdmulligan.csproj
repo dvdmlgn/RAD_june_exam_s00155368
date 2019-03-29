@@ -50,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseInitialiser.cs" />
+    <Compile Include="DataContext.cs" />
     <Compile Include="DataModels\Customer.cs" />
     <Compile Include="DataModels\OnlineResource.cs" />
     <Compile Include="DataModels\Purchase.cs" />
