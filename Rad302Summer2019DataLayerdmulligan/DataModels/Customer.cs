@@ -16,7 +16,9 @@ namespace Rad302Summer2019DataLayerdmulligan.DataModels
 
         public void TopupAccount(decimal amount)
         {
-            var topup = new Topup();
+            var topup = new Topup(CustomerID, amount);
+
+            Topup.MakeTransaction(topup);
         }
 
         public void Purchase()
