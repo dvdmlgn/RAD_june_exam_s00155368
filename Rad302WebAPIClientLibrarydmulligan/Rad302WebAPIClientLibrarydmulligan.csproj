@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0F30CB94-D69D-4849-90F1-3DA1E1B306CE}</ProjectGuid>
+    <ProjectGuid>{505C5D1C-1AE3-4CB8-B21E-DBBF0DEE2B7A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Rad302Summer2019ConsoleClientdmulligan</RootNamespace>
-    <AssemblyName>Rad302Summer2019ConsoleClientdmulligan</AssemblyName>
+    <RootNamespace>Rad302WebAPIClientLibrarydmulligan</RootNamespace>
+    <AssemblyName>Rad302WebAPIClientLibrarydmulligan</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
