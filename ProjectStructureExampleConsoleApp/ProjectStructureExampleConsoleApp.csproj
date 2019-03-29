@@ -48,15 +48,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BusinessModel\BusinessModel.csproj">
-      <Project>{f94a60e7-0f38-4828-8c9c-a520266e2caf}</Project>
-      <Name>BusinessModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CLWebAPIClient\CLWebAPIClient.csproj">
-      <Project>{177228dc-9378-45e5-9777-c6e8e18c250e}</Project>
-      <Name>CLWebAPIClient</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
