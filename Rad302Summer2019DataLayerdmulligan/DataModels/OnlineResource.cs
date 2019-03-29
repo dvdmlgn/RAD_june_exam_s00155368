@@ -21,6 +21,15 @@ namespace Rad302Summer2019DataLayerdmulligan.DataModels
         public decimal          UnitCost     { get; set; }
         public ResourceCategory ResourceType { get; set; }
 
+        public OnlineResource(string title, decimal unitCost, ResourceCategory resourceCategory)
+        {
+            ResourceID   = Guid.NewGuid().GetHashCode();
+            QuantitySold = 0;
+            Title        = title;
+            UnitCost     = unitCost;
+            ResourceType = resourceCategory;
+        }
 
+        public void updateQuantitySold(int additionialUnitsSold) => QuantitySold += additionialUnitsSold;
     }
 }
