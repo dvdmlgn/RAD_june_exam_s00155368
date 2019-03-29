@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataModels\Customer.cs" />
+    <Compile Include="DataModels\OnlineResource.cs" />
     <Compile Include="DataModels\Purchase.cs" />
     <Compile Include="DataModels\Topup.cs" />
     <Compile Include="Program.cs" />

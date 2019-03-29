@@ -21,9 +21,5 @@ namespace Rad302Summer2019DataLayerdmulligan.DataModels
             Topup.MakeTransaction(topup);
         }
 
-        public void Purchase()
-        {
-
-        }
     }
 }
