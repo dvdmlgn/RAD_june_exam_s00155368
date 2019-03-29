@@ -13,6 +13,14 @@ namespace Rad302Summer2019DataLayerdmulligan.DataModels
         public DateTime Date          { get; set; }
         public decimal  Amount        { get; set; }
 
+        public Topup(int customerId, decimal amount)
+        {
+            TransactionID = Guid.NewGuid().GetHashCode();
+            CustomerID    = customerId;
+            Date          = DateTime.UtcNow;
+            Amount        = amount;
+        }
+
         // a copy of all transactions will be stored here
         public static List<Topup> History = new List<Topup>();
 

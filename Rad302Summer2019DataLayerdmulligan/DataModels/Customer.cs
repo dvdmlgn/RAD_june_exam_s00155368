@@ -16,7 +16,7 @@ namespace Rad302Summer2019DataLayerdmulligan.DataModels
 
         public void TopupAccount(decimal amount)
         {
-
+            var topup = new Topup();
         }
 
         public void Purchase()
